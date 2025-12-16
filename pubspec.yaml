@@ -44,8 +44,10 @@ dependencies:
   get_it: ^8.0.3
   google_fonts: ^6.2.1
   google_sign_in: ^6.3.0
+  image_picker: ^1.2.1
   intl_mobile_field: ^2.0.2
   provider: ^6.1.5
+  supabase_flutter: ^2.12.0
 
 dev_dependencies:
   flutter_lints: ^5.0.0

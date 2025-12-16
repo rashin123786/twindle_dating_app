@@ -6,6 +6,7 @@ import 'package:twindle_app/core/theme/app_theme.dart';
 import 'package:twindle_app/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:twindle_app/features/auth/presentation/screen/login_screen.dart';
 import 'package:twindle_app/features/home/presentation/screen/home_screen.dart';
+import 'package:twindle_app/features/onboarding/presentation/screens/upload_photo_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

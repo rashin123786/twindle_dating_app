@@ -1,6 +1,3 @@
-import 'dart:developer';
-
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:twindle_app/features/auth/data/models/user_model.dart';
 
@@ -14,8 +11,8 @@ abstract class AuthDatasource {
 
 class AuthDataSourceImpl implements AuthDatasource {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
+  @override
   Future sentOtp() {
-    // TODO: implement sentOtp
     throw UnimplementedError();
   }
 
